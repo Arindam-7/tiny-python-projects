@@ -16,7 +16,7 @@ def subtitles_downloader():
         urls = [ ]
         for link in url_soup.select('.a1 a', href=True):
             urls.append(link['href'])
-
+ 
         #selecting second link from the list
         sub_link = 'https://www.subscene.com/' + urls[1]
         sub_url = requests.get(sub_link)

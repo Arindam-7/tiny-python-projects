@@ -1,1 +1,1 @@
-# tiny-python-projects
+# This repo involves small python projects
